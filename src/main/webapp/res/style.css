@@ -1,0 +1,78 @@
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+}
+
+td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+tr:hover td {
+    background: #ccddff;
+}
+
+a, input[type=submit] {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    background: #728af7;
+    box-shadow: 2px 2px 0 0 #101ca2;
+    position: relative;
+}
+
+a:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
+
+input[type=submit]:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div {
+    max-width: 60%;
+    margin: auto;
+    height: 60%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    height: 60%;
+    border-radius: 5px;
+    background-color: #ccddff;
+    padding: 20px;
+}
+
+h2 {
+    color: #050872;
+    text-align: center;
+
+}
+

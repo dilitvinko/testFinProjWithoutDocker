@@ -1,0 +1,2 @@
+1. add bootstrap
+2. add same validation in all Class as User + jsp
